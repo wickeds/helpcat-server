@@ -1,0 +1,96 @@
+/* Proprietary code, © 2012 All rights reserved. */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+* {
+  margin: 0px;
+  padding: 0;
+  font-family: 'Open Sans', Sans-Serif;
+  font-size: 13px;
+}
+textarea:focus, input:focus{
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+}
+body {
+  padding: 20px;
+  background: white;
+}
+input[type='button'], input[type='submit'] {
+  padding: 5px;
+  background: #eee;
+  border: 1px solid #ccc;
+}
+input[type='button']:hover, input[type='submit']:hover {
+  padding: 5px;
+  background: #ccc;
+}
+#container {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+#login {
+  width: 100%;
+  height: 100%;
+}
+#header {
+  position: fixed;
+  left: 10px;
+  top: 10px;
+  right: 10px;
+  height: 100px;
+}
+#messages {
+  position: fixed;
+  top: 60px;
+  left: 10px;
+  right: 10px;
+  bottom: 100px;
+  text-align: left;
+  background: white;
+  padding: 10px;
+  overflow: auto;
+  border: 1px solid black;
+}
+#messages .head {
+  color: #999;
+}
+#messages .msgyou, #messages .msgother {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+#messages .msgyou {
+  background: #f9f9f9;
+  margin-left: 2%;
+}
+#messages .msgother {
+  background: #eee;
+  margin-right: 2%;
+}
+#input {
+  position: fixed;
+  bottom: 20px;
+  left: 10px;
+  right: 10px;
+  height: 50px;
+  background: white;
+  padding: 10px;
+  text-align: left;
+  border: none;
+  resize: none;
+  border: 1px solid gray;
+}
+#logo {
+  float:right;
+}
+#footer {
+  font-size: 8pt;
+  position: fixed;
+  text-align: right;
+  bottom: 5px;
+  left: 20px;
+  right: 20px;
+}
+#footer a {
+  font-size: 8pt;
+  color: black;
+}

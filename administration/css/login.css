@@ -1,0 +1,51 @@
+* {
+  font-family: 'Segoe UI Light', 'Open Sans Light';
+  font-size: 12pt;
+}
+#box {
+  font-family: 'Segoe UI Light', 'Open Sans Light';
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  width: 300px;
+  height: auto;
+  background: white;
+  padding: 0;
+}
+#box h1 {
+  font-size: 20pt;
+  font-family: 'Segoe UI Light', 'Open Sans Light';
+  font-weight: 300;
+  margin: 0;
+  margin-top: -10px;
+  margin-bottom: 0px;
+}
+#box input[type="text"], #box input[type="password"] {
+  width: 300px;
+  height: 28px;
+  border: 1px solid gray;
+  padding: 5px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+#box .rightbound {
+  text-align: right;
+}
+#box input[type="submit"] {
+  background: gray;
+  color: white;
+  border: 0;
+  padding: 5px 10px;
+}
+#box input[type="submit"]:hover {
+  background: #aaa;
+}
+#box input[type="submit"]:active {
+  background: black;
+}
+#box hr {
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid #119EDA;
+}
